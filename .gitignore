@@ -1,0 +1,167 @@
+# SystemVerilog and VLSI Design .gitignore
+
+# Simulation Files
+*.vcd
+*.fsdb
+*.shm
+*.trn
+*.dsn
+*.wlf
+*.ucdb
+*.vstf
+*.vf
+*.args
+simv*
+*.daidir/
+csrc/
+*.key
+*.vpd
+*.vpdx
+
+# Compilation and Build Files
+*.o
+*.so
+*.dll
+*.exe
+work/
+*.work
+*.lib
+*.map
+*.log
+*.rpt
+transcript
+modelsim.ini
+vsim.wlf
+
+# Cadence Simulation Files
+*.history
+cds.lib
+hdl.var
+*.log.*
+.simvision/
+waves.shm/
+INCA_libs/
+*.trn
+*.dsn
+
+# Synopsys Tools
+*.syn
+*.svf
+*.pvl
+*.tcl~
+*_syn.v
+*.dc
+command.log
+default.svf
+
+# Mentor Graphics
+*.wlf
+*.vstf
+work/
+transcript
+modelsim.ini
+vsim.wlf
+*.mpf
+
+# Xilinx Files
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/utils_1/
+vivado*.jou
+vivado*.log
+*.str
+*.xpe
+*.xdc~
+
+# Altera/Intel Files
+*.qpf
+*.qsf
+*.bak
+*.rpt
+*.smsg
+*.summary
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.quartus.bak
+
+# Coverage Files
+*.cov
+coverage.dat
+urgReport/
+*.urg
+
+# Temporary and Backup Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# Directory and Build Artifacts
+.DS_Store
+Thumbs.db
+*.tar.gz
+*.zip
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+
+# Custom Tool Files
+*.conf
+*.setup
+*.cfg~
+
+# Large Database Files (consider using Git LFS)
+*.db
+*.lib
+*.lef
+*.tf
+
+# Documentation Build
+*.aux
+*.fdb_latexmk
+*.fls
+*.toc
+*.out
+
+# Specific to VLSI Design Flow
+# Synthesis
+genus.log*
+genus.cmd*
+*.mapped
+*.unmapped
+
+# Place and Route
+innovus.log*
+innovus.cmd*
+*.def
+*.odb
+*.globals
+
+# DRC/LVS
+*.drc
+*.lvs
+*.pex
+
+# Parasitic Extraction
+*.spef
+*.sdf
+
+# Power Analysis
+*.pwr
+*.power
+
+# Custom additions for specific tools
+# Add your specific tool artifacts here
